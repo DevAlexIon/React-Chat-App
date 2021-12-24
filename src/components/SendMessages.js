@@ -17,6 +17,7 @@ function SendMessages() {
       photoURL,
       createdAt: firebase.firestore.FieldValue.serverTimestamp(),
     });
+    setMsg("");
   }
   return (
     <div>
